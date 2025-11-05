@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultado de Búsqueda de Permiso</title>
+  <style>
+    body {font-family: Arial, sans-serif; background-color: #f7f8fa; margin: 0; padding: 0;}
+    header {background-color: white; border-bottom: 1px solid #ddd; padding: 10px 40px;
+            display: flex; justify-content: space-between; align-items: center;}
+    header img {height: 80px;}
+    header nav a {margin: 0 15px; color: #333; text-decoration: none; font-weight: bold;}
+    main {display: flex; justify-content: center; padding: 40px 10px; position: relative;}
+    .card {background-color: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+           width: 700px; padding: 30px; position: relative; overflow: hidden;}
+    .card h2 {background-color: #1e6de7; color: white; padding: 12px; border-radius: 8px 8px 0 0;
+              text-align: left; margin: 0 0 20px 0; font-size: 20px;}
+    .content {text-align: center; position: relative;}
+    .content img.icono {width: 110px; margin: 15px auto; display: block; position: relative; z-index: 2;}
+    .background-logo {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+                      opacity: 0.07; width: 600px; z-index: 0;}
+    .background-escudo {position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%);
+                        opacity: 0.1; width: 450px; z-index: 0;}
+    .details {display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 16px; margin-top: 10px;
+              text-align: left; position: relative; z-index: 2;}
+    .estatus {color: red; font-weight: bold;}
+    footer {background-color: #1b1b1b; color: white; text-align: center; padding: 20px; font-size: 14px;
+            margin-top: 40px;}
+    footer img {margin-top: 10px; width: 250px;}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo-alcozauca.png" alt="Logo Ayuntamiento de Alcozauca">
+    <nav>
+      <a href="#">Inicio</a><a href="#">Trámites</a><a href="#">Contacto</a><a href="#">Panel Administrativo</a>
+    </nav>
+  </header>
+  <main>
+    <div class="card">
+      <h2>PERMISO CERTIFICADO</h2>
+      <div class="content">
+        <img src="images/certificado-icon.png" alt="Certificado" class="icono">
+        <img src="images/logo-guerrero.png" alt="Logo Guerrero" class="background-escudo">
+        <img src="images/logo-alcozauca.png" alt="Logo Ayuntamiento de fondo" class="background-logo">
+      </div>
+      <h3 style="text-align:center; margin-bottom:10px;">Detalles del Permiso</h3>
+      <div class="details">
+        <div><strong>Estatus:</strong> <span class="estatus">Activo</span></div>
+        <div><strong>Marca:</strong> VENTO</div>
+        <div><strong>Línea:</strong> URBAN SPORT</div>
+        <div><strong>Modelo:</strong> Storm 300</div>
+        <div><strong>Color:</strong> Negra con detalles en azul</div>
+        <div><strong>Número de Serie:</strong> MUASKCD4S1021382</div>
+        <div><strong>Número de Motor:</strong> KD25F005T60</div>
+        <div><strong>Contribuyente:</strong> VALERIA GUARIN LANDERO</div>
+        <div><strong>Fecha de Vigencia:</strong> 2025-06-24</div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    © 2024 - 2027 Honorable Ayuntamiento de Alcozauca, Guerrero.<br>
+    Portal web del Honorable Ayuntamiento de Alcozauca, Guerrero.<br>
+    <img src="images/logo-alcozauca.png" alt="Logo Ayuntamiento">
+  </footer>
+</body>
+</html>
