@@ -1,1 +1,0 @@
-# Resultado-de-B-squeda-de-Permiso
